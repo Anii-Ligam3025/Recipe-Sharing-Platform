@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let recipes = JSON.parse(localStorage.getItem("recipes")) || [
         {
             name: "Spaghetti Carbonara",
-            image: "https://source.unsplash.com/250x250/?spaghetti",
+            image: "https://bellyfull.net/wp-content/uploads/2023/02/Spaghetti-Carbonara-blog-1.jpg",
             description: "A classic Italian pasta dish with eggs, cheese, and pancetta."
         },
         {
             name: "Chocolate Cake",
-            image: "https://source.unsplash.com/250x250/?cake",
+            image: "https://tse4.mm.bing.net/th?id=OIP.lBuQauKnT5u_Gu_VeVoBaAHaHa&pid=Api&P=0&h=180",
             description: "A rich and moist chocolate cake perfect for dessert lovers."
         }
     ];

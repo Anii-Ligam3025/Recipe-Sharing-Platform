@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Recipe Sharing Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="add-recipe">
+            <h2>Add a New Recipe</h2>
+            <form id="recipe-form">
+                <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+                <input type="url" id="recipe-image" placeholder="Image URL" required>
+                <textarea id="recipe-description" placeholder="Recipe Description" required></textarea>
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+
+        <section id="recipe-list">
+            <h2>Featured Recipes</h2>
+            <div class="recipes-container" id="recipes"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Recipe Sharing Platform. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
